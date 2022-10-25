@@ -1,0 +1,225 @@
+.logo{
+    width: 80px;
+    height: 50px;
+    padding-left: 10Px;
+    padding-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    font-family: cursive;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: rgb(0, 0, 0);
+  }
+  .title1 h2{
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title1 h3{
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #pic1{
+    width: 900px;
+    border-radius: 10px;
+  }
+  .picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bar2{
+    margin-top: 50px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+   border-radius: 10px;
+  }
+  .active2{
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+  }
+  #pic3 {
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .first{
+      margin-top: 90px;
+      height: 180px;
+      width:700px ;
+      background-color: black;
+      border-radius: 20px;
+      display: flex;
+      color: beige;
+      font-family: cursive;
+    }
+    #text1{
+        margin-left: 50px;
+  }
+  #txt{
+      margin-top: -20px;
+      margin-left: 20px;
+    }
+    #pic4 {
+        margin-right: 20px;
+      width: 200px;
+      margin-top: 0px;
+      margin-left: 20px;
+    }
+  .second{
+      margin-top: 90px;
+    height: 180px;
+    width:700px ;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    right: 10px;
+    color: beige;
+    font-family: cursive;
+}
+#text2{
+    margin-left: 50px;
+}
+#txt2{
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+  
+  .third{
+
+    margin-top: 350px;
+    height: 180px;
+    width:700px ;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    color: beige;
+    font-family: cursive;
+  }
+  #text3{
+      margin-left: 50px;
+}
+#txt3{
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+  #pic5 {
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-color: black;
+    height: 10pc;
+    padding-top: 80px;
+    
+    
+  }
+  /* .text1f{
+    padding-bottom: 1pc;
+    
+  } */
+  /* .footer{
+    background-color: black;
+    height: 11pc;
+    
+  } */
+  .input2{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .labelinput{
+    margin-left: -90px;
+  }
+.imagecomment{
+  margin-top: 20px;
+  height: 80px;
+  border-radius: 50%;
+ display: flex;
+ flex-direction: row;
+ /* margin-right: 6pc; */
+ margin-left: 2px;
+}
+.comment{
+  margin-top: -20px;
+  height: 10pc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(23, 23, 23, 1);
+  border-radius: 20px;
+  margin-bottom: 10pc;
+}
+.commenttitle{
+background-color: rgba(23, 23, 23, 1);
+color: beige;
+font-family: cursive;
+width: 200px;
+border-radius: 10px;
+height: 35px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 80px;
+margin-left: 32pc;
+}
+.txt-comment{
+  margin-top: 20px;
+  color: rgb(0, 0, 0);  
+  font-family: cursive;
+}
+.cm{
+  width: 200px;
+  height: 50px;
+  background-color:cornsilk;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#folow{
+  font-family: cursive;
+  font-size: large;
+  width: 200px;
+
+}
+
+
+  
