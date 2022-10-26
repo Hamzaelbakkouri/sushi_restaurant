@@ -1,0 +1,119 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+   .item_container {
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+        flex-wrap: wrap;
+        
+  }
+  
+   .item_container .box {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 30px 10px;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 2px 0.5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 2px 0.5px rgba(0, 0, 0, 0.15);
+    
+  }
+  
+   .item_container .box .img-box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            
+  }
+  
+   .item_container .box .img-box img {
+    width: 900px;
+    border-radius: 10px;
+  }
+  
+   .item_container .box h6 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: cursive;
+
+  }
+  .item_container .box h5 {
+    text-transform: uppercase;
+  }
+  .item_container .box:hover {
+    -webkit-box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.75);
+
+  }
+  .item_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5pc;
+  }
+  .box{
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+  }
+  .name{
+    color:beige;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+  }
+  .txt1title{
+    border: 2px solid;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-bottom: -5pc;
+  }
+  .txt2title{
+    border: 2px solid;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-bottom: -5pc;
+  }
+  .txt3title{
+    border: 2px solid;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-bottom: -5pc;
+  }
+  .txt4title{
+    border: 2px solid;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-bottom: -5pc;
+  }

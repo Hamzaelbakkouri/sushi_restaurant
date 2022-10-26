@@ -145,19 +145,14 @@ ul {
     width: 100%;
     background-color: black;
     height: 10pc;
-    padding-top: 80px;
-    
-    
+    padding-top: 50px;
   }
-  /* .text1f{
-    padding-bottom: 1pc;
-    
-  } */
-  /* .footer{
-    background-color: black;
-    height: 11pc;
-    
-  } */
+  @media (max-width:700px) {
+    .footer{
+      flex-direction: column;
+    }
+  }
+  
   .input2{
     color: rgb(255, 255, 255);
     display: flex;
@@ -202,14 +197,14 @@ margin-left: 32pc;
 }
 .txt-comment{
   margin-top: 20px;
-  color: rgb(0, 0, 0);  
+  color: rgb(232, 232, 232);  
   font-family: cursive;
 }
 .cm{
-  width: 200px;
+  width: 150px;
   height: 50px;
-  background-color:cornsilk;
-  border-radius: 20px;
+  background-color:rgb(83, 82, 82);
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
