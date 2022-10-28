@@ -199,3 +199,34 @@
       margin-left: 60px;
     }
   }
+  #cont{
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    display: flex;
+  }
+  #cont p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+  }
+  #cont{
+    width:300px;
+    height: 300px;
+    display: flex;
+    justify-items: center;
+    margin-top: 40px;
+    border-radius: 20px; 
+    display: grid;
+    place-content: center;
+    overflow-y: scroll;
+  }
+  #cont::-webkit-scrollbar{
+  display: none;
+  }
+  .center{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  
+  

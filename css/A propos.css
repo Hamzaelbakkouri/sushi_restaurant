@@ -9,10 +9,50 @@ justify-content: center;
 font-family: cursive;
 }
 #about2{
-    width: 600px;
-    background-color: rgb(246, 246, 246);
-    margin-left: 300px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 35%;
 font-family: cursive;
 box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
-border-radius: 10px;
+border-radius: 3px;
+}
+.chefpic{
+    width: 300px;
+}
+.shef{
+    display: flex;
+    justify-content:space-evenly ;
+    height: 200px;
+}
+.allchef{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+}
+.titleimg{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.chefname{
+    display: flex;
+    gap: 91px
+}
+#nameshef{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:700px){
+    #about2{
+        width: 300px;
+        margin-left: 70px;
+    }
 }
