@@ -149,10 +149,38 @@ ul {
   }
   @media (max-width:700px) {
     .footer{
-      flex-direction: column;
+      font-size: 10px;
+      height: 120px;
+    }
+    #pic1{
+      width: 500px;
+    }
+    .title1{
+      font-size: 10px;
+    }
+    .bar2{
+      height: 30px;
+    }
+    .active2{
+      font-size: 14px;
+    }
+    .first{
+      width: 400PX;
+      height: 150px;
+      font-size: 10px;
+    }
+    .second{
+      width: 400PX;
+      height: 150px;
+      font-size: 10px;
+    }
+    .third{
+      width: 400PX;
+      height: 150px;
+      font-size: 10px;
     }
   }
-  
+
   .input2{
     color: rgb(255, 255, 255);
     display: flex;
@@ -166,11 +194,9 @@ ul {
 .imagecomment{
   margin-top: 20px;
   height: 80px;
+  width: 80px ;
   border-radius: 50%;
- display: flex;
- flex-direction: row;
- /* margin-right: 6pc; */
- margin-left: 2px;
+
 }
 .comment{
   margin-top: -20px;
@@ -197,13 +223,13 @@ margin-left: 32pc;
 }
 .txt-comment{
   margin-top: 20px;
-  color: rgb(232, 232, 232);  
+  color: rgb(255, 255, 255);  
   font-family: cursive;
 }
 .cm{
   width: 150px;
   height: 50px;
-  background-color:rgb(83, 82, 82);
+  background-color:rgb(36, 36, 36);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -216,5 +242,32 @@ margin-left: 32pc;
 
 }
 
-
+@media (max-width:700px) {
+  .commenttitle{
+    width: 200px;
+    margin-left: 100px;
+  }
+  .comment{
+    width: 420px;
+    height: 150px;
+  }
+  .imagecomment{
+    width: 60px;
+    height: 60PX;
+    margin-left: -18px;
+  }
+  .txt-comment{
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+  .cm{
+    margin-left: -27px;
+    width: 70px;
+    display: flex;
+     border-radius: 3px;
+     height: 30px;
+  }
+}
   

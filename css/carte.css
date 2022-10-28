@@ -117,3 +117,85 @@
     margin-left: 40%;
     margin-bottom: -5pc;
   }
+  .plus{
+    margin-left: 200px;
+  }
+  .confirm{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    margin-bottom: 60px;
+    color: aliceblue;
+    border-radius:20px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    margin-left: 10%;
+  }
+  
+  #black-part{
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    border-radius:10px 10px 0px 0px ;
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+  }
+  .titleconfirm{
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  #logoc{
+    width: 40px;
+    margin-right: 20px;
+  }
+  #logoc2{
+    width: 300px;
+  }
+  .confirmb{
+    margin-left: 100px;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+  }
+  .shop{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .confirm2{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+  .titleconfirm2{
+    color: beige;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  #txtid{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+  }
+  #inputid{
+    margin-left: 160px;
+    margin-bottom:40px ;
+    height: 50px;
+  }
+  @media (max-width:700px) {
+    .confirm2{
+      width: 300px;
+    }
+    .titleconfirm2{
+      font-size: 15px;
+    }
+    #inputid{
+      margin-left: 60px;
+    }
+  }
