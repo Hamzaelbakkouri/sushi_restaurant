@@ -200,14 +200,15 @@
     }
   }
   #cont{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     height: 300px;
     display: flex;
+    border: 3px solid black;
   }
   #cont p{
     font-size: 20px;
-    color: rgb(255, 255, 255);
-    font-family: poppins;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
   }
   #cont{
     width:300px;
@@ -228,5 +229,13 @@
     display: flex;
     justify-content: center;
   }
+  .plus:hover{
+    background-color: rgb(147, 147, 147);
+    border-radius: 50%;
+  }
+  .plus{
+    cursor: pointer;
+  }
+
   
   
