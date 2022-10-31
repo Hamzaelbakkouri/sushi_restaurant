@@ -17,26 +17,16 @@ function add(price, name){
   console.log(text[i],price[i])
   i++;
 }
-var panier= document.getElementById("menuPanier");
-        var cocaqu = 1, sevenqu = 1, pepsiqu = 1;
+let logoc = document.querySelectorAll(".logoc")
 
-        function coca(){
-            var coc = document.querySelectorAll("#cocaCola");
-            for(var j = 0; j < coc.length; j++){
-                coc[j].style.display = "none";
-            }
-            var div = document.createElement("div");
-            div.setAttribute("id", "cocaCola");
-            div.setAttribute("class", "rows");
-            var text1 = document.createElement("h3");
-            var text2 = document.createElement("h3");
-            var text3 = document.createElement("h3");
-            text1.innerText = "CocaCola";
-            text2.innerText = "x"+cocaqu;
-            text3.innerText = "15Dh";
-            div.appendChild(text1);
-            div.appendChild(text2);
-            div.appendChild(text3);
-            panier.appendChild(div);
-            cocaqu++;
-        }
+logoc.forEach((item)=>{
+    item.addEventListener("click",(e)=>{
+        let cart = document.getElementById("cont")
+         if (cart.style.display == "none")
+         {
+            cart.style.display = "block"
+         }else{
+            cart.style.display = "none"
+         }
+    })
+})

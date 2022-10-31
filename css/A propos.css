@@ -21,8 +21,9 @@ border-radius: 3px;
 }
 .shef{
     display: flex;
-    justify-content:space-evenly ;
+    justify-content:center ;
     height: 200px;
+    gap: 30px;
 }
 .allchef{
     background-color: rgb(255, 255, 255);
@@ -33,6 +34,7 @@ border-radius: 3px;
     justify-content: space-evenly;
 align-items: center;
 flex-wrap: wrap;
+
 }
 .titleimg{
     font-family: cursive;
@@ -41,14 +43,8 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     
 }
-.chefname{
-    display: flex;
-    gap: 91px
-}
-#nameshef{
-    display: flex;
-    justify-content: space-evenly;
-}
+
+
 
 @media (max-width:700px){
     #about2{
