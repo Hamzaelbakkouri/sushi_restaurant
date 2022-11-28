@@ -11,10 +11,10 @@ function add(price, name){
 
   const cont = document.getElementById("cont")
   var p = document.createElement("p")
-  text[i]=document.createTextNode(name,price)
+  text[i]=document.createTextNode(name)
       p.appendChild(text[i])
   cont.appendChild(p)
-  console.log(text[i],price[i])
+  console.log(text[i])
   i++;
 }
 let logoc = document.querySelectorAll(".logoc")
@@ -30,3 +30,13 @@ logoc.forEach((item)=>{
          }
     })
 })
+function remove() {
+    let var1 = document.querySelector("#cont");
+    alert("clear your bag")
+    sum=0;
+    document.getElementById("inputid").value="";
+    while (var1.hasChildNodes()) {
+        var1.removeChild(var1.firstChild)
+    }
+  }
+

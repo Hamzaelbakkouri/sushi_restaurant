@@ -90,17 +90,7 @@
 
 
 <!-- js -->
-<script>
-    // navbar
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-</script>
+
     <div class="abouttxt">
         <h2>About us</h2>
         <p id="about1">THIS IS WHAT YOU NEED TO KNOW ABOUT us</p>
@@ -125,7 +115,7 @@
 
 
 
-    <footer>
+    <footer class="ft">
         <dl class="footer"  style="font-family:cursive;">
             <dt class="text1f">14 Av. Zerktouni, Safi</dt>
             <dt class="text1f">+212 836722190</dt>
@@ -146,6 +136,16 @@
         </dl>
        
     </footer>
-    
+    <script>
+        // navbar
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 </html>

@@ -22,7 +22,6 @@ border-radius: 3px;
 .shef{
     display: flex;
     justify-content:center ;
-    height: 200px;
     gap: 30px;
 }
 .allchef{
@@ -34,7 +33,6 @@ border-radius: 3px;
     justify-content: space-evenly;
 align-items: center;
 flex-wrap: wrap;
-
 }
 .titleimg{
     font-family: cursive;
@@ -43,12 +41,20 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     
 }
-
-
+@media screen and(max-width:700px) {
+    
+    .chefpic{
+        display: flex;
+        flex-wrap:wrap;
+    }
+}
 
 @media (max-width:700px){
     #about2{
         width: 300px;
         margin-left: 70px;
+    }
+    .ft{
+        margin-top: 388px;
     }
 }

@@ -245,6 +245,27 @@ html {
     cursor: pointer;
     width: 48px;
   }
+  #cont{
+    display: none;
+  }
+  #removebtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #btnr{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius:10px ;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(216, 0, 0);
+  }
+  #btnr:hover{
+    background-color: rgb(107, 1, 1);
+    color: rgb(255, 255, 255);
+  }
 
   
   
