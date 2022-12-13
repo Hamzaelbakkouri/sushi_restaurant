@@ -17,6 +17,7 @@ function add(price, name){
   console.log(text[i])
   i++;
 }
+
 let logoc = document.querySelectorAll(".logoc")
 
 logoc.forEach((item)=>{
